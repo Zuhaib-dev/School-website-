@@ -25,6 +25,8 @@
       href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <!-- Tailwind  -->
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- 
     - preload images
@@ -74,7 +76,7 @@
             </li>
 
             <li class="navbar-item">
-              <a href="#about" class="navbar-link" data-nav-toggler>About</a>
+              <a href="#faq" class="navbar-link" data-nav-toggler>About</a>
             </li>
 
             <li class="navbar-item">
@@ -1105,6 +1107,73 @@
             </div>
           </div>
         </section>
+        <!-- 
+            -Faq 
+        -->
+        <section class="section faq" id="faq" aria-label="faq">
+          <div class="bg-white-100 py-8">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <h2 class="text-3xl font-extrabold text-gray-900 text-center mb-6">Frequently Asked Questions📍</h2>
+              
+              <div class="space-y-4">
+                <!-- Question 1 -->
+                <div class="bg-white p-4 rounded-lg shadow">
+                  <button class="w-full text-left focus:outline-none" onclick="toggleAnswer(1)">
+                    <div class="flex justify-between items-center">
+                      <h3 class="text-lg font-medium text-gray-900">What services does Perfect Health Care offer?</h3>
+                      <span class="text-blue-600" id="icon-1">+</span>
+                    </div>
+                  </button>
+                  <div class="mt-2 hidden" id="answer-1">
+                    <p class="text-gray-600" style="font-size: 20px;">We offer a range of health services, including primary care, specialist consultations, and telemedicine services to ensure your well-being.</p>
+                  </div>
+                </div>
+          
+                <!-- Question 2 -->
+                <div class="bg-white p-4 rounded-lg shadow">
+                  <button class="w-full text-left focus:outline-none" onclick="toggleAnswer(2)">
+                    <div class="flex justify-between items-center">
+                      <h3 class="text-lg font-medium text-gray-900">How can I book an appointment?</h3>
+                      <span class="text-blue-600" id="icon-2">+</span>
+                    </div>
+                  </button>
+                  <div class="mt-2 hidden" id="answer-2">
+                    <p class="text-gray-600"style="font-size: 20px;">You can book an appointment via our website or by calling our helpline. We also offer an online booking system for telemedicine.</p>
+                  </div>
+                </div>
+          
+                <!-- Question 3 -->
+                <div class="bg-white p-4 rounded-lg shadow">
+                  <button class="w-full text-left focus:outline-none" onclick="toggleAnswer(3)">
+                    <div class="flex justify-between items-center">
+                      <h3 class="text-lg font-medium text-gray-900">Do you accept health insurance?</h3>
+                      <span class="text-blue-600" id="icon-3">+</span>
+                    </div>
+                  </button>
+                  <div class="mt-2 hidden" id="answer-3">
+                    <p class="text-gray-600"style="font-size: 20px;">Yes, we accept a wide range of health insurance plans. Please contact our billing department for more information.</p>
+                  </div>
+                </div>
+          
+                <!-- Question 4 -->
+                <div class="bg-white p-4 rounded-lg shadow">
+                  <button class="w-full text-left focus:outline-none" onclick="toggleAnswer(4)">
+                    <div class="flex justify-between items-center">
+                      <h3 class="text-lg font-medium text-gray-900">What are the clinic's working hours?</h3>
+                      <span class="text-blue-600" id="icon-4">+</span>
+                    </div>
+                  </button>
+                  <div class="mt-2 hidden" id="answer-4">
+                    <p class="text-gray-600"style="font-size: 20px;">Our clinics are open Monday to Friday, from 8:00 AM to 6:00 PM, and Saturday from 9:00 AM to 2:00 PM.</p>
+                  </div>
+                </div>
+                <!-- Question 5 -->
+              </div>
+            </div>
+          </div>
+        
+            <!-- end
+              -->
 
         <!-- 
         - #NEWSLETTER
@@ -1168,7 +1237,7 @@
       <div class="container">
         <div class="footer-top">
           <div class="footer-brand">
-            <a href="#" class="logo">Nouman School</a>
+            <a href="#" class="logo">R.P School</a>
 
             <p class="section-text">
               The best school to teach students about their important education
@@ -1203,6 +1272,12 @@
             <li>
               <p class="footer-list-title">Explore</p>
             </li>
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+                <sapn class="span">Our Team</sapn>
+              </a>
+            </li>
 
             <li>
               <a href="#" class="footer-link">
@@ -1229,7 +1304,7 @@
             </li>
 
             <li>
-              <a href="#" class="footer-link">
+              <a href="#faq" class="footer-link">
                 <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
 
                 <span class="span">FAQ Question</span>
@@ -1291,23 +1366,23 @@
               <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
 
               <address class="footer-link">
-                Camp No.2 Near Sahafi Colony, Nawabshah
+                Kashmir
               </address>
             </li>
 
             <li class="footer-item">
               <ion-icon name="call" aria-hidden="true"></ion-icon>
 
-              <a href="tel:+923023207807" class="footer-link"
-                >+92 302 3207807</a
+              <a href="tel:+9100000" class="footer-link"
+                >+91 00000000</a
               >
             </li>
 
             <li class="footer-item">
               <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
 
-              <a href="aisha111000khan@gmail.com" class="footer-link"
-                >aisha111000khan@gmail.com</a
+              <a href="xuvaxuva006@gmail.com" class="footer-link"
+                >xuvaxuva006@gmail.com</a
               >
             </li>
           </ul>
@@ -1315,12 +1390,12 @@
 
         <div class="footer-bottom">
           <p class="copyright">
-            Copyright 2023 Nouman School. All Rights Reserved by
+            Copyright 2023 Zuhaib. All Rights Reserved by
             <a
-              href="https://www.asharib.xyz/"
+              href="https://www.instagram.com/zoh.aib__?igsh=MWM0OWJwM3IzOTVzMg=="
               target="_blank"
               class="copyright-link"
-              >Asharib Ali</a
+              >Zuhaib</a
             >
           </p>
         </div>
@@ -1358,3 +1433,4 @@
     ></script>
   </body>
 </html>
+<!-- This website belongs to Zuhaib  -->
