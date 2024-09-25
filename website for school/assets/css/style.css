@@ -274,8 +274,14 @@ body {
   color: var(--ultramarine-blue);
   font-size: 2.4rem;
   font-weight: var(--fw-800);
-  width: 100px;
+  width: 110px;
   height: 100px;
+  
+}
+@media only screen and (min-width: 1024px) {
+  .logo {
+    width: 150px; /* larger size for bigger desktops */
+  }
 }
 
 .header-actions {
