@@ -274,6 +274,8 @@ body {
   color: var(--ultramarine-blue);
   font-size: 2.4rem;
   font-weight: var(--fw-800);
+  width: 100px;
+  height: 100px;
 }
 
 .header-actions {
