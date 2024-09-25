@@ -88,3 +88,14 @@ function toggleAnswer(id) {
     icon.innerText = '+';
   }
 }
+// JavaScript to handle FAQ toggle
+document.addEventListener('DOMContentLoaded', function() {
+  const toggles = document.querySelectorAll('.faq-toggle');
+  
+  toggles.forEach(toggle => {
+    toggle.addEventListener('click', function() {
+      const answer = this.nextElementSibling;
+      answer.classList.toggle('hidden');
+    });
+  });
+});
