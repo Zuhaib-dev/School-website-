@@ -314,12 +314,17 @@ h2.testmonial {
   display: flex;
   justify-content: center;
   font-size: 40px;
-  color: var(--pumpkin);
-  /* font-family: "Laila", serif; */
+  /* color: var(--pumpkin); */
+  color: white;
+  background-color: royalblue;
+  border-radius: 50px;
+  margin-left: 500px;
+  margin-right: 500px;
 }
 #testmonial {
   background-color: var(--orange-peel_10);
   font-size: 25px;
+  
 }
 
 
